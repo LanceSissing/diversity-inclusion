@@ -14,6 +14,7 @@
     border-radius: 1rem;
     z-index: 1;
 }
+
 .jumbotron .content {
     position: relative;
     z-index: 2;
@@ -28,4 +29,34 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
 section[aria-labelledby="benefits-of-d&i"] .col-md-6 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
+}
+
+section[aria-labelledby="bigger-talent-pool"] .col-12 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+    padding-right: 3rem; /*Add extra white space on the right */
+}
+
+section[aria-labelledby="increased-employee-engagement"] .col-12 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+    padding-right: 3rem; /*Add extra white space on the right */
+}
+
+section[aria-labelledby="new-perspectives-and-innovation"] .col-12 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+    padding-right: 3rem; /*Add extra white space on the right */
+}
+
+section[aria-labelledby="improved-performance"] .col-12 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+    padding-right: 3rem; /*Add extra white space on the right */
+}
+
+section[aria-labelledby="stronger-business-results-and-profits"] .col-12 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+    padding-right: 3rem; /*Add extra white space on the right */
 }
