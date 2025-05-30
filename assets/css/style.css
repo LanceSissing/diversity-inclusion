@@ -24,3 +24,8 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     padding-left: 2rem; /* Add extra white space on the left */
     padding-right: 3rem;  /*Add extra white space on the right */
 }
+
+section[aria-labelledby="benefits-of-d&i"] .col-md-6 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+}
