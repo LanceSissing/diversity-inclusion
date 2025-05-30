@@ -1,7 +1,7 @@
 
 /*Page styles*/
 body {
-    background-color: #c7e6ef; 
+    background-color: #d1dfd1; 
 }
 
 /*aside {
@@ -14,7 +14,29 @@ body {
     padding-bottom: 1rem; 
 }
 
+/* Make Navbar hamburger white */
+.navbar-toggler {
+    border-color: #fff;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+    outline: 1px solid #fff !important;   /* White outline */
+    box-shadow: 0 0 0 0.2rem #fff !important; /* Optional: white glow */
+    border-color: #fff !important;        /* White border */
+}
+
 /*Jumbotron styles*/
+
+.oswald-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .jumbotron {
     background: url('../images/group1.jpeg') center 0px/cover no-repeat;
     color: #fff;
@@ -35,6 +57,17 @@ body {
 .jumbotron .content {
     position: relative;
     z-index: 2;
+}
+
+.jumbotron-bottom-line {
+    width: 100%;
+    height: 1px; /* Thickness of the line */
+    background: #3F4749; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 1rem 1rem; /* Optional: matches jumbotron corners */
+    z-index: 3;
 }
 
 /*Text section styles*/
@@ -60,13 +93,28 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     padding-bottom: 1rem;
     background-color: #E6BB64; 
     border: 1px solid #7e7e7e;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem;    
 }
 
 section[aria-labelledby="benefits-of-d&i"] .col-md-6 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
     padding-top: 2rem;  /*Add extra white space at the top */
+}
+
+.list-group-item a {
+    color: #000000; /* Replace with your desired color */
+    text-decoration: none; /* Optional: removes underline */
+}
+
+.list-group-item a:hover {
+    color: #888888; /* Optional: color on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
+.list-group-item {
+    background-color: #E6BB64; 
+    border: 1px solid #000000; /* Optional: remove borders for a cleaner look */
 }
 
 section[aria-labelledby="bigger-talent-pool"] .col-12 {
@@ -109,4 +157,9 @@ section[aria-labelledby="implementing-pool"] .col-12 {
     padding-left: 2rem; /* Add extra white space on the left */
     padding-right: 3rem; /*Add extra white space on the right */
     padding-top: 2rem;  /*Add extra white space at the top */
+}
+
+/*Footer styles*/
+.custom-footer {
+    background-color: #3F4749; 
 }
