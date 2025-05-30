@@ -17,3 +17,10 @@
 .jumbotron .content {
     position: relative;
     z-index: 2;
+}
+
+section[aria-labelledby="importance-of-d&i"] .col-md-9 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+    padding-right: 3rem;  /*Add extra white space on the right */
+}
