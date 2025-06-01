@@ -118,10 +118,9 @@ body {
 
 /*Text section styles*/
 
-h4, h6 {
+h4, h5, h6 {
     font-family: "Oswald", sans-serif;
 }
-
 
 hr {
     border: none;
@@ -185,7 +184,6 @@ section[aria-labelledby="benefits-of-d&i"] .col-md-9 {
     color: #000000; 
 }
 
-
 section[aria-labelledby="bigger-talent-pool"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
@@ -238,4 +236,10 @@ section[aria-labelledby="challenges-to-d&i"] .col-md-9 {
 /*Footer styles*/
 .custom-footer {
     background-color: #3F4749; 
+}
+
+
+.footer-brand {
+    color: #adadad !important; 
+    
 }
