@@ -28,6 +28,11 @@ body {
     border-color: #fff !important;        /* White border */
 }
 
+.navbar-brand {
+    color: #adadad !important; 
+    padding-left: 1rem;
+}
+
 /*Jumbotron styles*/
 
 .oswald-font {
@@ -38,12 +43,13 @@ body {
 }
 
 .jumbotron {
-    background: url('../images/group1.jpeg') center 0px/cover no-repeat;
+    background: url('../images/group1b4.jpg') center 0px/cover no-repeat;
     color: #fff;
     padding: 4rem 2rem;
     border-radius: 1rem;
     position: relative;
-    min-height: 600px;
+    min-height: 750px;
+    
 }
 
 .jumbotron .bg-overlay {
@@ -57,20 +63,87 @@ body {
 .jumbotron .content {
     position: relative;
     z-index: 2;
+    padding-left: 0rem;
+}
+
+.jumbotron .content h1 {
+    font-size: 5rem;
+    
+}
+
+.jumbotron .content p {
+    font-size: 2.6rem; 
+}
+
+.jumbotron .content,
+.jumbotron .content h1,
+.jumbotron .content p {
+    color: rgba(255, 255, 255, 0.6); /* 70% opacity */
 }
 
 .jumbotron-bottom-line {
     width: 100%;
-    height: 1px; /* Thickness of the line */
+    height: 1px; 
     background: #3F4749; 
     position: absolute;
     left: 0;
     bottom: 0;
-    border-radius: 0 0 1rem 1rem; /* Optional: matches jumbotron corners */
+    border-radius: 0 0 1rem 1rem; 
     z-index: 3;
 }
 
+/* 
+
+@media (max-width: 991.98px) {
+  .jumbotron {
+    max-height: 400px;
+    min-height: 250px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .jumbotron {
+    max-height: 250px;
+    min-height: 120px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+  }
+}
+*/
+
 /*Text section styles*/
+
+h4, h6 {
+    font-family: "Oswald", sans-serif;
+}
+
+
+hr {
+    border: none;
+    height: 1px; /* or 1px */
+    background-color: #22223b; 
+    opacity: 0.5; 
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.list-group-item a {
+    font-family: "Oswald", sans-serif;
+    color: #22223b !important;
+    font-weight: 600;
+}
+
+.list-group-item a:hover {
+    color: #646464 !important; 
+}
 
 section[aria-labelledby="importance-of-d&i"] aside {
     margin-top: 4rem;
@@ -91,31 +164,27 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     padding-right: 2rem; 
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #E6BB64; 
+    background-color: #ffecc7; 
     border: 1px solid #7e7e7e;
     border-radius: 0.5rem;    
 }
 
-section[aria-labelledby="benefits-of-d&i"] .col-md-6 {
+section[aria-labelledby="benefits-of-d&i"] .col-md-9 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-top: 2rem;  /*Add extra white space at the top */
+    padding-right: 1rem;  /*Add extra white space on the right */
+    padding-top: 1rem;  /*Add extra white space at the top */
+    padding-bottom: 1rem;
 }
 
-.list-group-item a {
-    color: #000000; /* Replace with your desired color */
-    text-decoration: none; /* Optional: removes underline */
+.benefit-box {
+    
+    background: #ffecc7;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    color: #000000; 
 }
 
-.list-group-item a:hover {
-    color: #888888; /* Optional: color on hover */
-    text-decoration: underline; /* Optional: underline on hover */
-}
-
-.list-group-item {
-    background-color: #E6BB64; 
-    border: 1px solid #000000; /* Optional: remove borders for a cleaner look */
-}
 
 section[aria-labelledby="bigger-talent-pool"] .col-12 {
     text-align: justify;
@@ -153,6 +222,13 @@ section[aria-labelledby="stronger-business-results-and-profits"] .col-12 {
 }
 
 section[aria-labelledby="implementing-pool"] .col-12 {
+    text-align: justify;
+    padding-left: 2rem; /* Add extra white space on the left */
+    padding-right: 3rem; /*Add extra white space on the right */
+    padding-top: 2rem;  /*Add extra white space at the top */
+}
+
+section[aria-labelledby="challenges-to-d&i"] .col-md-9 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
     padding-right: 3rem; /*Add extra white space on the right */
