@@ -49,7 +49,6 @@ body {
     border-radius: 1rem;
     position: relative;
     min-height: 750px;
-    
 }
 
 .jumbotron .bg-overlay {
@@ -68,15 +67,18 @@ body {
 
 .jumbotron .content h1 {
     font-size: 5rem;
-    display: inline-block;           /* Shrinks border to text width */
-    
-    border-radius: 0.5rem;           /* Optional: rounded corners */
-    padding: 1rem 1rem;          /* Optional: space inside border */
-    background: rgba(63, 71, 73, 0.1); /* Optional: subtle background */
+    display: inline-block;  /* border constrained to text width */
+    border-radius: 0.5rem;           
+    padding-top: 1rem;
+    padding-right: 2rem;  
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;   
+    background: rgba(63, 71, 73, 0.2); /* Background */
 }
 
 .jumbotron .content p {
-    font-size: 2.6rem; 
+    font-size: 2.6rem;
+    font-family: "Oswald", sans-serif;
 }
 
 .jumbotron .content,
@@ -266,7 +268,7 @@ section[aria-labelledby="implementing-pool"] ul {
 }
 
 .card {
-    min-width: 200px;
+    min-width: 180px;
 }
 
 /*Footer styles*/
