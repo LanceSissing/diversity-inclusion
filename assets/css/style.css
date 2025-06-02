@@ -29,9 +29,14 @@ body {
 }
 
 .navbar-brand {
-    color: #adadad !important; 
+    color: #dfdede !important; 
     padding-left: 1rem;
 }
+
+.navbar-nav .nav-link {
+    color: #dfdede !important;
+}
+
 
 /*Jumbotron styles*/
 
@@ -191,7 +196,6 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     padding-bottom: 1rem;
 }
 
-
 section[aria-labelledby="benefits-of-d&i"] .col-md-9 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
@@ -200,12 +204,11 @@ section[aria-labelledby="benefits-of-d&i"] .col-md-9 {
     padding-bottom: 1rem;
 }
 
-
 section[aria-labelledby="bigger-talent-pool"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
     padding-right: 2rem; /*Add extra white space on the right */
-    padding-top: 1rem;  /*Add extra white space at the top */
+    padding-top: 0rem;  /*Add extra white space at the top */
 }
 
 section[aria-labelledby="increased-employee-engagement"] .col-12 {
