@@ -76,6 +76,16 @@ body {
     background: rgba(63, 71, 73, 0.2); /* Background */
 }
 
+@media (max-width: 575.98px) {
+  .jumbotron .content h1 {
+    font-size: 3.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
 .jumbotron .content p {
     font-size: 2.6rem;
     font-family: "Oswald", sans-serif;
@@ -151,7 +161,7 @@ hr {
 }
 
 section[aria-labelledby="importance-of-d&i"] aside {
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
 }
@@ -208,7 +218,7 @@ section[aria-labelledby="increased-employee-engagement"] .col-12 {
 section[aria-labelledby="new-perspectives-and-innovation"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 3rem; /*Add extra white space on the right */
+    padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 0.5rem;  /*Add extra white space at the top */
 }
 
@@ -232,7 +242,6 @@ section[aria-labelledby="implementing-pool"] .col-12 {
     padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 2rem;  /*Add extra white space at the top */
 }
-
 
 section[aria-labelledby="challenges-to-d&i"] .col-md-12 {
     text-align: justify;
