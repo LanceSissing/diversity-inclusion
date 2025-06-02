@@ -84,7 +84,7 @@ body {
 .jumbotron .content,
 .jumbotron .content h1,
 .jumbotron .content p {
-    color: rgba(255, 255, 255, 0.6); /* 70% opacity */
+    color: rgba(255, 255, 255, 0.65); /* opacity */
 }
 
 .jumbotron-bottom-line {
@@ -164,7 +164,7 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     padding-bottom: 1rem;
 }
 
-#spec-spacing {
+#whatis-boxout {
     padding-left: 2rem; 
     padding-right: 2rem; 
     padding-top: 1rem;
@@ -174,10 +174,18 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     border-radius: 0.5rem;    
 }
 
+#sign-up {
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
 section[aria-labelledby="benefits-of-d&i"] .col-md-9 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 1rem;  /*Add extra white space on the right */
+    padding-right: 2rem;  /*Add extra white space on the right */
     padding-top: 1rem;  /*Add extra white space at the top */
     padding-bottom: 1rem;
 }
@@ -186,14 +194,14 @@ section[aria-labelledby="benefits-of-d&i"] .col-md-9 {
 section[aria-labelledby="bigger-talent-pool"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 3rem; /*Add extra white space on the right */
+    padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 1rem;  /*Add extra white space at the top */
 }
 
 section[aria-labelledby="increased-employee-engagement"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 3rem; /*Add extra white space on the right */
+    padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 0.5rem;  /*Add extra white space at the top */
 }
 
@@ -207,21 +215,21 @@ section[aria-labelledby="new-perspectives-and-innovation"] .col-12 {
 section[aria-labelledby="improved-performance"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 3rem; /*Add extra white space on the right */
+    padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 0.5rem;  /*Add extra white space at the top */
 }
 
 section[aria-labelledby="stronger-business-results-and-profits"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 3rem; /*Add extra white space on the right */
+    padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 0.5rem;  /*Add extra white space at the top */
 }
 
 section[aria-labelledby="implementing-pool"] .col-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 3rem; /*Add extra white space on the right */
+    padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 2rem;  /*Add extra white space at the top */
 }
 
@@ -229,11 +237,11 @@ section[aria-labelledby="implementing-pool"] .col-12 {
 section[aria-labelledby="challenges-to-d&i"] .col-md-12 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 3rem; /*Add extra white space on the right */
+    padding-right: 2rem; /*Add extra white space on the right */
     padding-top: 2rem;  /*Add extra white space at the top */
 }
 
-.roboto-flex-<uniquifier> {
+.roboto-flex {
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -274,11 +282,8 @@ section[aria-labelledby="implementing-pool"] ul {
 /*Footer styles*/
 .custom-footer {
     background-color: #3F4749; 
-    
 }
-
 
 .footer-brand {
     color: #adadad !important; 
-    
 }
