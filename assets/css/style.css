@@ -4,9 +4,6 @@ body {
     background-color: #d1dfd1; 
 }
 
-/*aside {
-    background-color: #ffffff; 
-}*/
 
 /*Navbar styles*/
 .custom-navbar {
@@ -48,7 +45,7 @@ body {
 }
 
 .jumbotron {
-    background: url('../images/group1b4.jpg') center 0px/cover no-repeat;
+    background: url('../images/group14bs.jpeg') center 0px/cover no-repeat;
     color: #fff;
     padding: 4rem 2rem;
     border-radius: 1rem;
@@ -113,30 +110,6 @@ body {
     z-index: 3;
 }
 
-/* 
-
-@media (max-width: 991.98px) {
-  .jumbotron {
-    max-height: 400px;
-    min-height: 250px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    overflow: hidden;
-  }
-}
-
-
-@media (max-width: 575.98px) {
-  .jumbotron {
-    max-height: 250px;
-    min-height: 120px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    overflow: hidden;
-  }
-}
-*/
-
 /*Text section styles*/
 
 h4, h5, h6 {
@@ -165,25 +138,39 @@ hr {
     color: #646464 !important; 
 }
 
+/* Aside or what-is boxout */
 section[aria-labelledby="importance-of-d&i"] aside {
     margin-top: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
 }
 
+#whatis-boxout {
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 991.98px) {
+  section[aria-labelledby="importance-of-d&i"] aside {
+    margin-top: 0rem; /* or 0, or whatever looks best */
+  }
+}
+
 section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
-    padding-right: 1rem;  /*Add extra white space on the right */
+    padding-right: 2rem;  /*Add extra white space on the right */
     padding-top: 3rem;  /*Add extra white space at the top */
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
 }
 
 #whatis-boxout {
     padding-left: 2rem; 
     padding-right: 2rem; 
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     background-color: #ffecc7; 
     border: 1px solid #7e7e7e;
     border-radius: 0.5rem;    
@@ -196,11 +183,24 @@ section[aria-labelledby="importance-of-d&i"] .col-md-9 {
     padding-bottom: 1rem;
 }
 
+#sign-up {
+    margin-top: 3rem;
+}
+
+@media (max-width: 991.98px) {
+  #sign-up {
+    padding-top: 1rem;    /* Reduce top padding */
+    padding-bottom: 2rem; /* Increase bottom padding */
+    margin-top: 0rem;   /* Optional: reduce margin above */
+    margin-bottom: 2rem;  /* Optional: add more space below */
+  }
+}
+
 section[aria-labelledby="benefits-of-d&i"] .col-md-9 {
     text-align: justify;
     padding-left: 2rem; /* Add extra white space on the left */
     padding-right: 2rem;  /*Add extra white space on the right */
-    padding-top: 1rem;  /*Add extra white space at the top */
+    padding-top: 2rem;  /*Add extra white space at the top */
     padding-bottom: 1rem;
 }
 
@@ -289,6 +289,12 @@ section[aria-labelledby="implementing-pool"] ul {
 
 .card {
     min-width: 180px;
+}
+
+.cards-row-padding {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 /*Footer styles*/
